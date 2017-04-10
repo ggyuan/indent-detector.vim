@@ -61,7 +61,7 @@ func indent_detector#hook(autoadjust, echolevel)
 				endif
 			else
 				if a:echolevel > 2
-					echo 'indent: '.rst
+					silent echo 'indent: '.rst
 				endif
 			endif
 		endif
