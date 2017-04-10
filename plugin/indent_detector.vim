@@ -69,4 +69,3 @@ func indent_detector#hook(autoadjust, echolevel)
 endfunc
 
 auto bufenter * call indent_detector#hook(1, 3)
-auto bufwritepost * call indent_detector#hook(1, 2)
